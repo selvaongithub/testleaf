@@ -13,7 +13,7 @@ public class Buttonexample {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Selvakumar\\Downloads\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.leafground.com/link.xhtml"); 
-		//id,name,class name ,xpath,
+		//id,name,class name ,xpath,ss
 		//driver.findElement(By.linkText("Go to Dashboard")).click();
 		driver.findElement(By.partialLinkText(" Dashboard")).click(); //give a dashboard instead of go to dashboard
 		
